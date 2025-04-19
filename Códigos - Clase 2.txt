@@ -1,0 +1,99 @@
+// Algoritmo 1: Hola Mundo
+Algoritmo Hola_mundo
+	Escribir "Hola mundo"
+FinAlgoritmo
+
+// Algoritmo 2: sumatoria de 2 números
+Algoritmo Sumatoria
+	Escribir "Ingrese el número 1:"
+	Leer numero1
+	Escribir "Ingrese el número 2:"
+	Leer numero2
+	
+	suma<-numero1+numero2//Proceso
+	
+	Escribir "El resultado de la suma es: "
+	Escribir suma
+FinAlgoritmo
+
+// Algoritmo 3: número mayor
+Algoritmo Numero_mayor
+	Escribir "Ingrese el número 1:"
+	Leer numero1
+	Escribir "Ingrese el número 2:"
+	Leer numero2
+	
+	Si numero1=numero2 Entonces
+		Escribir "Los números son iguales"
+	SiNo
+		Si numero1>numero2 Entonces
+			Escribir numero1 " es el mayor"
+		SiNo
+			Escribir numero2 " es el mayor"
+		Fin Si
+	Fin Si
+	
+FinAlgoritmo
+
+// Algoritmo 4: Menú con suma y resta
+Algoritmo menu
+	//Pedir los datos
+	Escribir "Ingrese 2 números"
+	Leer n1
+	Leer n2
+	
+	Escribir "===MENU==="
+	Escribir "1. Suma"
+	Escribir "2. Resta"
+	//Pide ingresar una opción
+	Escribir "Ingresa una opción: "
+	Leer op
+	
+	Segun op Hacer
+		1:
+			suma<-n1+n2
+			Escribir "El resultado de la suma es: " suma
+		2:
+			resta<-n1-n2
+			Escribir "El resultado de la resta es: " resta
+		De Otro Modo:
+			Escribir "Usted ha ingresado una opción no valida"
+			Escribir "Finalizado"
+	Fin Segun
+FinAlgoritmo
+
+// Algoritmo 5: Tabla de multiplicar 1 al 10 del número que yo desee
+Algoritmo menu
+	Escribir "Ingrese el número del que desee la tabla de multiplicar: "
+	Leer N
+	
+	Para i<-1 Hasta 10 Con Paso 1 Hacer
+		Escribir N "x" i "=" n*i
+	Fin Para
+
+FinAlgoritmo
+
+// Algoritmo 6: Escriba del 1 al 10
+Algoritmo menu
+	Escribir "Escribir números del 1 al 10 "
+	n<-0
+	
+	Mientras (n<10) Hacer
+		n=n+1
+		Escribir n
+	Fin Mientras
+		
+FinAlgoritmo
+
+
+// Algoritmo 7: Escriba del 1 al 10
+Algoritmo menu
+	Escribir "Escribir números del 1 al 10 "
+	n<-0
+	
+	Repetir
+		n=n+1
+		Escribir n
+	Hasta Que n=10
+		
+FinAlgoritmo
