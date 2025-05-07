@@ -18,7 +18,7 @@ print("Su deducción de pensión es de:", DP)
 if Salario_b > 10000000:
     UI = 0.02*(Salario_b-10000000)
 else:
-    UI=0
+    UI = 0
 
 #Pago neto
 
