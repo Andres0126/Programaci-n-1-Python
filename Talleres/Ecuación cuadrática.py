@@ -22,7 +22,7 @@ else:
         x1 = (-b)/(2*a)
         x2 = x1
     else: # 1. El polinomio no tiene raíces reales, es decir, que el polinomio tenga raíces complejas; 
-        print("No tiene solución")
+        print("El polinomio tiene raices complejas")
         x1 = None
         x2 = None
 if x1 is not None and x2 is not None:

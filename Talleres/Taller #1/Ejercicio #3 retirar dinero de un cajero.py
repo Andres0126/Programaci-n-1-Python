@@ -19,5 +19,6 @@ if retiro % 10 != 0:
     print("La cantidad solicitada debe ser múltiplo de 10.")
 else:
     billetes_50_necesarios = min(retiro // 50, billetes_50)
+    retiro -= billetes_50_necesarios * 50
     print(billetes_50_necesarios)
    
