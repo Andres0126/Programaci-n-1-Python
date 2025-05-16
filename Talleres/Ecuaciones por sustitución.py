@@ -11,12 +11,5 @@ if (a1==0) & (b1==0):
 elif (a2==0) & (b2==0):
     print("No es un sistema de eecuaciones, verifique")
 else:
-    if (a1!=0) & (a2 != 0):
-        if (b1 !=0) & (b2 != 0):
-            x = c2/(((a1+((b1*c2)/b2))+(a2*b1)/b2))
-            y = (c1 - a1*x)/b1
-            print("Este es el valor de y: ", y)
-            print("Este es el valor de x: ", x)
-        else:
-              print("No es un sistema de dos ecuaciones, verifique")
-        
+    if (a1!=0):
+        y= 
